@@ -14,7 +14,6 @@ button{
     font-weight: 700;
     display: flex;
     justify-content: center;
-    margin-left: 150px;
 }
 
 a{
@@ -27,36 +26,18 @@ button:hover{
     border-radius: 50px; 
 }
 
-.areaBotao {
-    display: flex;
-    justify-content: center;    
-}
 
-
-.h1 {
-    font-size: 53px;
+h1 {
+    font-size: 60px;
     margin-top: 0px;
 }
 
 p{
-    font-size: 35px;
-    text-align: center;
+    font-size: 30px;
     font-weight: 700;
+    width: 80%;
 }
 
-h1{
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 111px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 456px;
-    height: 106px;
-    text-align:center;
-    margin-top: 0px;
-}
 
 .img {
     width: 431px;
@@ -71,21 +52,6 @@ h1{
     height: 100dvh;
 }
 
-.subtitle {
-    font-size: 29px;
-    width: 473px;
-    height: 47px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top:  50px;
-}
-
-.img {
-    width: 271px;
-    height: 416px;;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -93,7 +59,8 @@ h1{
     height: 100vh;
   }
   
-  .div-centralizada {
-    width: 50%;
-    margin: 0 auto;
-  }
+.botoes {
+    display: flex;
+    gap: 20px;
+    
+}
